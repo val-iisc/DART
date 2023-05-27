@@ -1,8 +1,8 @@
 # DART: Diversify-Aggregate-Repeat Training
 This repository contains codes for the training and evaluation of our CVPR-23 paper DART:Diversify-Aggregate-Repeat Training Improves Generalization of Neural Networks [main](https://openaccess.thecvf.com/content/CVPR2023/papers/Jain_DART_Diversify-Aggregate-Repeat_Training_Improves_Generalization_of_Neural_Networks_CVPR_2023_paper.pdf) and [supplementary](https://openaccess.thecvf.com/content/CVPR2023/supplemental/Jain_DART_Diversify-Aggregate-Repeat_Training_CVPR_2023_supplemental.pdf). The arxiv link for the paper is also [available](https://arxiv.org/pdf/2302.14685.pdf).
 <p float="left">
-  <img src="./media/DART_pic.png" width="500" />
-   <img src="./media/model_optimization_trajectory.gif" width="500" />
+  <img src="./media/DART_pic.png" width="450" />
+   <img src="./media/model_optimization_trajectory.gif" width="450" />
 </p>
 
 
