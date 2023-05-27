@@ -15,7 +15,7 @@ This repository contains codes for the training and evaluation of our CVPR-23 pa
 
 
 # Training
-For training DART on Office Home: 
+For training DART on Domain Generalization task: 
 ```
 python  
 ```
