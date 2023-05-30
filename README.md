@@ -17,10 +17,24 @@ This repository contains codes for the training and evaluation of our CVPR-23 pa
 # Training
 For training DART on Domain Generalization task: 
 ```
-python  
+python train_all.py [name_of_exp] --data_dir ./path/to/data --algorithm ERM --dataset PACS --inter_freq 1000 --steps 10001
 ```
-
-# Evaluation
+### Combine with SWAD
+set `swad: True` in config.yaml file or pass `--swad True` in the python command.
+### Changing Model & Hyperparams
+Similarly, to change the model (eg- VIT), swad hyperparameters or MIRO hyperparams, you can update ```config.yaml``` file or pass it as argument in the python command. 
+```
+python train_all.py [name_of_exp] --data_dir ./path/to/data \
+    --lr 3e-5 \
+    --inter_freq 600 \
+    --steps 8001 \
+    --dataset OfficeHome \
+    --algorithm MIRO \
+    --ld 0.1 \
+    --weight_decay 1e-6 \
+    --swad True \
+    --model clip_vit-b16
+```
 
 # Results
 ## In-Domain Generalization of DART:
